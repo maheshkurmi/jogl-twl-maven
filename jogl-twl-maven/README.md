@@ -23,7 +23,7 @@ Anyone planning to use full featured opengl gui in jogl (to avoid multithreading
 For commmercial use please contact **MatthiasMann** since he is the one who holds all rights, there is no restriction in distributing or reusing code from my behalf.
 
 ## how to use it
-- Download ind install [eclipse](http://www.eclipse.org/downloads/) project(Kepler) 
+- Download ind install [eclipse](http://www.eclipse.org/downloads/)
 - Download the repo and extract it
 - Open eclipse and import >>Maven >>Existing maven Project
 - Right click on project and click on menu  Run As >>Maven install
