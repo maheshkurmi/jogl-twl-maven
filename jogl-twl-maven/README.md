@@ -1,5 +1,5 @@
 # jogl-twl
-This Java project is [JOGL](http://www.jogamp.org)  port of [TWL:Theme Widget Library](http://twl.l33tlabs.org/)
+This Eclipse Maven Java project is [JOGL](http://www.jogamp.org)  port of [TWL:Theme Widget Library](http://twl.l33tlabs.org/)
 
 ![twl screenshot...](http://twl.l33tlabs.org/screen_simple.png)
 
@@ -23,7 +23,12 @@ Anyone planning to use full featured opengl gui in jogl (to avoid multithreading
 For commmercial use please contact **MatthiasMann** since he is the one who holds all rights, there is no restriction in distributing or reusing code from my behalf.
 
 ## how to use it
-simple download or clone this repo to create [eclipse](http://www.eclipse.org/downloads/) project(Kepler) and run some tests to check everything goes well.
+- Download ind install [eclipse](http://www.eclipse.org/downloads/) project(Kepler) 
+- Download the repo and extract it
+- Open eclipse and import >>Maven >>Existing maven Project
+- Right click on project and click on menu  Run As >>Maven install
+- You will see jar jogl-twl-test-1.0-SNAPSHOT.jar inside project folder jogl-twl-maven\jogl-twl-maven\jogl-twl-test\target
+- Run jar and click on test buttons to see demo
 You should get an idea about using twl in jogl by looking at the source.
 For tutorials on using twl please visit [http://twl.l33tlabs.org/](http://twl.l33tlabs.org/).
 
